@@ -168,6 +168,7 @@ const printCurrentTime = () => {
   const currentTime = new Date();
   return currentTime.toLocaleTimeString();
 };
+document.body.innerHTML = printCurrentTime();
 
 // Task 1: Invoke the printCurrentTime function inside a console.log():
 console.log("The time is now ", printCurrentTime());
